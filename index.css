@@ -97,4 +97,9 @@ body {
     }
 }
 
-
+/* baner */
+.baner-coderx {
+    padding-top: 15px;
+    width: 100%;
+    height: 450px;
+}
