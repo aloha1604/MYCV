@@ -50,6 +50,13 @@ body {
 .menu-nav-item a {
     color: black;
 }
+
+.menu-nav-item:hover {
+    padding: 5px;
+    background-color: cadetblue;
+    transition: all 0.3s;
+}
+
 .menu-humberger {
     position: absolute;
     border: 1px solid black;
@@ -89,12 +96,25 @@ body {
         align-items: flex-start;
     }
     .menu-nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+        background-color: cornsilk;
         display: none;
     }
 
-    .menu-humberger {
-        display: block;
+    .menu-nav-item {
+        margin-top: 15px;
     }
+
+    .menu-humberger {
+        display: inline-block;
+        top: 45px;
+    }
+}
+.active-menu {
+    display: inline-block;
 }
 
 /* baner */
